@@ -8,7 +8,7 @@ function Box(props) {
   // rotating box
   useFrame((state, delta) => {
     meshRef.current.rotation.x += delta * 0.3;
-    meshRef.current.rotation.y += delta * 0.5;
+    meshRef.current.rotation.y += delta * 0.7;
   });
 
   return (
